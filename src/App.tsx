@@ -1,10 +1,12 @@
 import './styles/theme.css';
 import './styles/global.css';
 
+import { Heading } from './components/Heading';
+
 export function App() {
   return (
     <>
-      <h1>Olá Mundo</h1>
+      <Heading>Olá Mundo 1</Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
         nesciunt vero quasi similique, nisi asperiores unde natus quibusdam
